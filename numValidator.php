@@ -1,5 +1,7 @@
 <?php
-	$var = 453676;
-	$result = number_format($var/100,2);
-	echo $result;
+	function decimal($var) {
+		$result = number_format($var/100,2);
+		return $result;
+	}
+	echo decimal(45643);
 ?>
