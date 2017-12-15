@@ -3,5 +3,6 @@
 		$result = number_format($var/100,2);
 		return $result;
 	}
-	echo decimal(45643);
+	$result = decimal(45643);
+	echo result;
 ?>
